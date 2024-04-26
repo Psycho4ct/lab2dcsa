@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
+    - run: sudo apt-cache search boost-beast
     - name: Install Boost.Beast
       run: |
         sudo apt-get update
