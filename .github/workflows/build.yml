@@ -17,12 +17,5 @@ jobs:
         sudo apt-get update
         git clone --recursive https://github.com/boostorg/boost.git
         cd boost
-
+        ./bootstrap.sh
     - run: echo “Hello”
-    
-    - name: Build
-      run: |
-        mkdir build
-        cd build
-        cmake ..
-        cmake --build .
