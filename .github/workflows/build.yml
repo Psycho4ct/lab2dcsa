@@ -15,7 +15,7 @@ jobs:
     - name: Install Boost.Beast
       run: |
         sudo apt-get update
-        sudo apt-get install -y libboost-beast-dev
+        sudo apt-get install -y libboost-dev
 
     - run: echo “Hello”
     
